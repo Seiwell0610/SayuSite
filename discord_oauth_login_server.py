@@ -13,9 +13,9 @@ os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'
 
 # Settings for your app
 base_discord_api_url = 'https://discordapp.com/api'
-client_id = r'1234567890' # Get from https://discordapp.com/developers/applications
+client_id = r'774091025508859916' # Get from https://discordapp.com/developers/applications
 client_secret = getpass.getpass()
-redirect_uri='https://example.com:8000/oauth_callback'
+redirect_uri='https://seiwell0610.github.io/SayuSite/oauth_callback'
 scope = ['identify', 'email']
 token_url = 'https://discordapp.com/api/oauth2/token'
 authorize_url = 'https://discordapp.com/api/oauth2/authorize'
